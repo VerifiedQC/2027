@@ -11,7 +11,7 @@ hero-date-link: "#important-dates"
 hero-city: Amsterdam
 hero-detail: The Netherlands · KIT
 hero-place-link: https://conferences.i-cav.org/2027/venue/
-hero-img: /assets/img/amsterdam.jpg
+hero-img: /assets/img/amsterdam-night.svg
 ---
 
 <section class="vqc-cta" aria-label="Priority actions">

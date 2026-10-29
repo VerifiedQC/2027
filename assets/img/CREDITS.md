@@ -1,1 +1,1 @@
-- `amsterdam.jpg`: "Amsterdam Canal" by André Silva, CC0 (public domain dedication), via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Amsterdam_Canal_(49000703426).jpg (1920px rendition).
+- `amsterdam-night.svg` / `amsterdam-night.png`: original illustration for VQC 2027 (Amsterdam canal houses with quantum motifs: Bloch sphere, entanglement arcs, a quantum circuit reflected in the canal). Generated from `art/gen.py` in the paper-editor workspace; CC BY 4.0, VQC 2027 organizers.
