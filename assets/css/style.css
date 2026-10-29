@@ -1,4 +1,5 @@
-/* VQC 2027 — visual language adapted from the CAV 2027 site
+/* VQC 2027 — CAV 2027 palette and type, brutalist treatment: solid colour blocks,
+   square corners, no borders, no shadows, no gradients.
    (conferences.i-cav.org/2027): Public Sans for UI/headings, Source Serif 4
    for prose, a deep-blue brand with a warm orange accent, card surfaces with
    soft shadows and 4px accent edges. */
@@ -21,10 +22,6 @@
   --accent: #E8752A;
   --accent-strong: #C7501F;
   --accent-warm: #FBE7D7;
-  --radius: 6px;
-  --radius-tight: 4px;
-  --shadow: 0 18px 45px rgba(var(--brand-rgb), 0.12);
-  --shadow-soft: 0 8px 24px rgba(var(--brand-rgb), 0.08);
   --body-font: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --header-font: 'Public Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --ui-font: 'Public Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -33,13 +30,12 @@
 
 body { font-size: 1.0625rem; line-height: 1.68; }
 code, pre, kbd, samp { font-family: var(--mono-font); }
-code { background: var(--surface-soft); color: var(--brand-2); padding: 0.1em 0.35em; border-radius: var(--radius-tight); }
+code { background: var(--surface-soft); color: var(--brand-2); padding: 0.1em 0.35em; }
 
 /* --- Navigation --- */
 .navbar-custom {
   font-family: var(--ui-font);
   font-size: 0.9375rem;
-  box-shadow: 0 1px 18px rgba(var(--brand-rgb), 0.08);
 }
 .navbar-custom .navbar-brand { font-weight: 800; letter-spacing: 0.01em; color: var(--brand) !important; }
 .navbar-custom .nav-link { font-weight: 600; }
@@ -52,8 +48,6 @@ code { background: var(--surface-soft); color: var(--brand-2); padding: 0.1em 0.
   grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
   background: linear-gradient(135deg, var(--brand) 0%, var(--brand-2) 100%);
   color: #fff;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
   overflow: hidden;
   min-height: 22rem;
 }
@@ -61,7 +55,7 @@ code { background: var(--surface-soft); color: var(--brand-2); padding: 0.1em 0.
 .vqc-hero__text { padding: 2.5rem 2.5rem 2.25rem; font-family: var(--ui-font); }
 .vqc-hero--compact .vqc-hero__text { padding: 2rem 2.5rem; }
 .vqc-hero__kicker {
-  font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+  font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-
   color: var(--accent-warm); margin: 0 0 0.75rem;
 }
 .vqc-hero__text h1 {
@@ -75,13 +69,10 @@ code { background: var(--surface-soft); color: var(--brand-2); padding: 0.1em 0.
 .vqc-hero__date, .vqc-hero__place {
   display: flex; flex-direction: column; justify-content: center;
   padding: 0.75rem 1.1rem; min-width: 8.5rem;
-  background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.22);
-  border-radius: var(--radius-tight); color: #fff; text-decoration: none;
-  transition: background 0.15s ease, transform 0.15s ease;
+  background: rgba(255,255,255,0.12); color: #fff; text-decoration: none;
 }
-.vqc-hero__date:hover, .vqc-hero__place:hover { background: rgba(255,255,255,0.2); color: #fff; text-decoration: none; transform: translateY(-1px); }
-.vqc-hero__date { border-left: 4px solid var(--accent); }
-.vqc-hero__date-month, .vqc-hero__date-year, .vqc-hero__place-detail { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.8); }
+.vqc-hero__date:hover, .vqc-hero__place:hover { background: rgba(255,255,255,0.2); color: #fff; text-decoration: none; }
+.vqc-hero__date-month, .vqc-hero__date-year, .vqc-hero__place-detail { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em; text- color: rgba(255,255,255,0.8); }
 .vqc-hero__date-days, .vqc-hero__place-city { font-size: 1.6rem; font-weight: 800; line-height: 1.1; }
 .vqc-hero__media { position: relative; min-height: 14rem; }
 .vqc-hero__photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
@@ -98,15 +89,14 @@ code { background: var(--surface-soft); color: var(--brand-2); padding: 0.1em 0.
 /* --- Content card --- */
 .vqc-main { margin-bottom: 3rem; }
 .page-content-card {
-  background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow-soft);
-  border: 1px solid var(--rule); padding: 2rem 2.25rem 2.25rem;
+  background: var(--surface); padding: 2rem 2.25rem 2.25rem;
 }
 @media (max-width: 575px) { .page-content-card { padding: 1.5rem 1.1rem; } }
 .page-content-card > :first-child { margin-top: 0; }
 .page-content-card h2, .page-content-card h3, .page-content-card h4 {
   font-family: var(--header-font); color: var(--brand); font-weight: 800;
 }
-.page-content-card h2 { font-size: 1.7rem; margin: 2.25rem 0 0.9rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--rule); scroll-margin-top: 5rem; }
+.page-content-card h2 { font-size: 1.7rem; margin: 2.25rem 0 0.9rem; padding-bottom: 0.4rem; scroll-margin-top: 5rem; }
 .page-content-card h3 { font-size: 1.35rem; margin: 1.6rem 0 0.6rem; }
 .page-content-card h4 { font-size: 1.125rem; margin: 1.2rem 0 0.4rem; }
 .page-content-card a { color: var(--brand-link); text-decoration: underline; text-decoration-thickness: 0.08em; text-underline-offset: 0.16em; }
@@ -121,14 +111,11 @@ code { background: var(--surface-soft); color: var(--brand-2); padding: 0.1em 0.
 .vqc-cta__item {
   display: flex; gap: 0.9rem; align-items: center;
   padding: 0.9rem 1rem; background: var(--surface-soft);
-  border: 1px solid var(--rule); border-left: 4px solid var(--brand-2); border-radius: var(--radius-tight);
   color: var(--text) !important; text-decoration: none !important;
-  transition: box-shadow 0.15s ease, transform 0.15s ease;
 }
-.vqc-cta__item:hover { box-shadow: var(--shadow-soft); transform: translateY(-1px); }
-.vqc-cta__item--accent { border-left-color: var(--accent); }
+.vqc-cta__item:hover { }
 .vqc-cta__icon {
-  flex: 0 0 2.25rem; width: 2.25rem; height: 2.25rem; border-radius: 999px;
+  flex: 0 0 2.25rem; width: 2.25rem; height: 2.25rem;
   display: inline-flex; align-items: center; justify-content: center;
   background: var(--brand); color: #fff; font-size: 0.95rem;
 }
@@ -142,9 +129,7 @@ code { background: var(--surface-soft); color: var(--brand-2); padding: 0.1em 0.
 .vqc-dates__item {
   display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 1.5rem;
   padding: 0.65rem 1rem; background: var(--surface-soft);
-  border: 1px solid var(--rule); border-left: 4px solid var(--accent); border-radius: var(--radius-tight);
 }
-.vqc-dates__item--brand { border-left-color: var(--brand-2); }
 .vqc-dates__label { color: var(--muted); font-size: 0.9375rem; }
 .vqc-dates__value { font-weight: 700; color: var(--text); }
 .vqc-dates__value s { color: var(--muted); font-weight: 400; margin-right: 0.4rem; }
@@ -152,10 +137,55 @@ code { background: var(--surface-soft); color: var(--brand-2); padding: 0.1em 0.
 
 /* --- People lists --- */
 .vqc-people { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0.35rem 1.5rem; padding-left: 0 !important; list-style: none; font-family: var(--ui-font); }
-.vqc-people li { padding: 0.35rem 0; border-bottom: 1px dotted var(--rule); }
+.vqc-people li { padding: 0.35rem 0; }
 .vqc-people .affil { color: var(--muted); font-size: 0.9rem; }
 .vqc-tbd { font-family: var(--ui-font); color: var(--muted); font-style: italic; }
 
 /* --- Footer --- */
 footer { font-family: var(--ui-font); }
 footer .copyright { color: #DDE6EA !important; }
+
+
+/* ===== Brutalist treatment ===== */
+* { border-radius: 0 !important; box-shadow: none !important; }
+.navbar-custom { background: var(--surface) !important; }
+.navbar-custom .navbar-brand { background: var(--brand); color: #fff !important; padding: 0.55rem 0.9rem; font-weight: 800; }
+.navbar-custom .nav-link { text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; font-weight: 700; }
+.navbar-custom .nav-link:hover, .navbar-custom .nav-link:focus { background: var(--accent); color: #fff !important; }
+
+.vqc-hero__card { background: var(--brand); }
+.vqc-hero__kicker { display: inline-block; background: var(--accent); color: #fff; padding: 0.3rem 0.6rem; margin-bottom: 1rem; }
+.vqc-hero__date, .vqc-hero__place { background: var(--brand-2); border: 0; }
+.vqc-hero__date { background: var(--accent); }
+.vqc-hero__date:hover { background: var(--accent-strong); }
+.vqc-hero__place:hover { background: var(--brand-link); }
+.vqc-hero__date-month, .vqc-hero__date-year, .vqc-hero__place-detail { color: rgba(255,255,255,0.9); }
+.vqc-hero__media::after { background: none; }
+
+.page-content-card { background: var(--surface); border: 0; }
+.page-content-card h2 {
+  display: inline-block; background: var(--brand); color: #fff; padding: 0.35rem 0.75rem;
+  border: 0; margin-bottom: 1rem;
+}
+.page-content-card h3 { color: var(--brand-2); }
+.page-content-card a { text-decoration: none; border-bottom: 3px solid var(--accent); }
+.page-content-card a:hover { background: var(--accent-warm); color: var(--brand); }
+
+.vqc-cta { gap: 0.6rem; }
+.vqc-cta__item { background: var(--brand-2); color: #fff !important; border: 0; padding: 1rem 1.1rem; }
+.vqc-cta__item:hover { background: var(--brand-link); }
+.vqc-cta__item--accent { background: var(--accent); }
+.vqc-cta__item--accent:hover { background: var(--accent-strong); }
+.vqc-cta__icon { background: rgba(255,255,255,0.18); color: #fff; }
+.vqc-cta__note, .vqc-cta__note strong { color: rgba(255,255,255,0.85); }
+
+.vqc-dates { gap: 0.4rem; }
+.vqc-dates__item { background: var(--surface-soft); border: 0; padding: 0.8rem 1rem; }
+.vqc-dates__item--brand { background: var(--surface-muted); }
+.vqc-dates__label { color: var(--text-soft); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.8rem; font-weight: 700; }
+a.vqc-dates__item { border-bottom: 0 !important; }
+a.vqc-dates__item:hover { background: var(--accent-warm); }
+.vqc-people li { border: 0; background: var(--surface-soft); padding: 0.5rem 0.75rem; }
+.vqc-tbd { background: var(--surface-soft); display: inline-block; padding: 0.4rem 0.75rem; font-style: normal; }
+.vqc-note { color: var(--text-soft); }
+footer { background: var(--brand); }
