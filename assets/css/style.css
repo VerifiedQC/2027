@@ -1,5 +1,6 @@
 /* VQC 2027 — CAV 2027 palette and type, brutalist treatment: solid colour blocks,
-   square corners, no borders, no shadows, no gradients.
+   square corners, no borders, no shadows, no gradients. Orange is an accent only
+   (thin rules, small icons, link underlines); large fills are deep blue / teal / grey.
    (conferences.i-cav.org/2027): Public Sans for UI/headings, Source Serif 4
    for prose, a deep-blue brand with a warm orange accent, card surfaces with
    soft shadows and 4px accent edges. */
@@ -151,13 +152,13 @@ footer .copyright { color: #DDE6EA !important; }
 .navbar-custom { background: var(--surface) !important; }
 .navbar-custom .navbar-brand { background: var(--brand); color: #fff !important; padding: 0.55rem 0.9rem; font-weight: 800; }
 .navbar-custom .nav-link { text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem; font-weight: 700; }
-.navbar-custom .nav-link:hover, .navbar-custom .nav-link:focus { background: var(--accent); color: #fff !important; }
+.navbar-custom .nav-link:hover, .navbar-custom .nav-link:focus { background: var(--brand); color: #fff !important; }
 
 .vqc-hero__card { background: var(--brand); }
-.vqc-hero__kicker { display: inline-block; background: var(--accent); color: #fff; padding: 0.3rem 0.6rem; margin-bottom: 1rem; }
+.vqc-hero__kicker { display: inline-block; background: none; color: var(--accent); padding: 0 0 0.3rem; border-bottom: 3px solid var(--accent); margin-bottom: 1rem; }
 .vqc-hero__date, .vqc-hero__place { background: var(--brand-2); border: 0; }
-.vqc-hero__date { background: var(--accent); }
-.vqc-hero__date:hover { background: var(--accent-strong); }
+.vqc-hero__date { background: var(--brand-2); border-top: 4px solid var(--accent); }
+.vqc-hero__date:hover { background: var(--brand-link); }
 .vqc-hero__place:hover { background: var(--brand-link); }
 .vqc-hero__date-month, .vqc-hero__date-year, .vqc-hero__place-detail { color: rgba(255,255,255,0.9); }
 .vqc-hero__media::after { background: none; }
@@ -169,14 +170,15 @@ footer .copyright { color: #DDE6EA !important; }
 }
 .page-content-card h3 { color: var(--brand-2); }
 .page-content-card a { text-decoration: none; border-bottom: 3px solid var(--accent); }
-.page-content-card a:hover { background: var(--accent-warm); color: var(--brand); }
+.page-content-card a:hover { background: var(--surface-soft); color: var(--brand); }
 
 .vqc-cta { gap: 0.6rem; }
 .vqc-cta__item { background: var(--brand-2); color: #fff !important; border: 0; padding: 1rem 1.1rem; }
 .vqc-cta__item:hover { background: var(--brand-link); }
-.vqc-cta__item--accent { background: var(--accent); }
-.vqc-cta__item--accent:hover { background: var(--accent-strong); }
+.vqc-cta__item--accent { background: var(--brand); }
+.vqc-cta__item--accent:hover { background: var(--brand-2); }
 .vqc-cta__icon { background: rgba(255,255,255,0.18); color: #fff; }
+.vqc-cta__item--accent .vqc-cta__icon { background: var(--accent); }
 .vqc-cta__note, .vqc-cta__note strong { color: rgba(255,255,255,0.85); }
 
 .vqc-dates { gap: 0.4rem; }
@@ -184,7 +186,7 @@ footer .copyright { color: #DDE6EA !important; }
 .vqc-dates__item--brand { background: var(--surface-muted); }
 .vqc-dates__label { color: var(--text-soft); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.8rem; font-weight: 700; }
 a.vqc-dates__item { border-bottom: 0 !important; }
-a.vqc-dates__item:hover { background: var(--accent-warm); }
+a.vqc-dates__item:hover { background: var(--surface-muted); }
 .vqc-people li { border: 0; background: var(--surface-soft); padding: 0.5rem 0.75rem; }
 .vqc-tbd { background: var(--surface-soft); display: inline-block; padding: 0.4rem 0.75rem; font-style: normal; }
 .vqc-note { color: var(--text-soft); }
