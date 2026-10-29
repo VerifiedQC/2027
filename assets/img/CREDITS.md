@@ -1,0 +1,1 @@
+- `amsterdam.jpg`: "Amsterdam Canal" by André Silva, CC0 (public domain dedication), via Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Amsterdam_Canal_(49000703426).jpg (1920px rendition).
