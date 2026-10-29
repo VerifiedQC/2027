@@ -3,9 +3,10 @@
 Website source for VQC 2027, a [CAV 2027](https://conferences.i-cav.org/2027/) workshop in Amsterdam.
 Published at <https://verifiedqc.github.io/2027/> via GitHub Pages.
 
-- `index.md` — landing page (dates, venue, organizers, invited speakers, program committee; the program table goes here once accepted presentations are known)
+- `index.md` — landing page (hero, call-to-action tiles, important dates, organizers, invited speakers, PC; the program table goes here once accepted presentations are known)
 - `cfp.md` — call for presentations
-- `_config.yml` — site title and navbar links
+- `_config.yml` — site title, navbar links and palette
+- `_layouts/workshop.html` + `assets/css/style.css` — CAV-2027-style hero card, content card, CTA tiles and date list
 
 Built with [Beautiful Jekyll](https://beautifuljekyll.com/) (MIT). To preview locally: `bundle install && bundle exec jekyll serve`.
 
