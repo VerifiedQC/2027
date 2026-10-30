@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: VQC 2025
+title: VQC 2027
 
 # Your name to show in the footer
-author: Workshop on Verification of Quantum Computing
+author: "VQC 2027 · Second Workshop on Verification of Quantum Computing"
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,12 +21,14 @@ author: Workshop on Verification of Quantum Computing
 
 navbar-links:
   Call for Presentations: "cfp"
+  Submit: "https://easychair.org/conferences/?conf=vqc2027"
+  VQC 2025: "https://verifiedqc.github.io/2025/"
   # Call for Workshops: "cfw"
   # Artifact Evaluation: "artifact"
   # Organization: "organization"
   # CAV Award: "award"
   # Sponsors: "sponsors"
-  CAV 2025: "https://conferences.i-cav.org/2025/"
+  CAV 2027: "https://conferences.i-cav.org/2027/"
 
 
 ################
@@ -88,7 +90,7 @@ navbar-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Second Workshop on Verification of Quantum Computing (VQC 2027), a CAV 2027 workshop
 
 ###########################
 # --- General options --- #
@@ -119,7 +121,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # Add a search button to the navbar
-post_search: true
+post_search: false
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
 # edit_page_button: true
@@ -138,17 +140,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+page-col: "#F5F7F8"
+text-col: "#15262E"
+link-col: "#006D80"
+hover-col: "#004E5D"
+navbar-col: "#FFFFFF"
+navbar-text-col: "#15262E"
+navbar-border-col: "#CBD6DC"
+footer-col: "#123247"
+footer-text-col: "#DDE6EA"
+footer-link-col: "#FFFFFF"
+footer-hover-col: "#E8752A"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -262,7 +264,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Amsterdam"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/

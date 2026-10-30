@@ -1,98 +1,92 @@
 ---
-layout: page
-title: First Workshop on Verification of Quantum Computing (VQC 2025)
-subtitle: A CAV 2025 Workshop
-cover-img: "/assets/img/zagreb.png"
+layout: workshop
+title: Second Workshop on Verification of Quantum Computing (VQC 2027)
+hero-kicker: A CAV 2027 Workshop
+hero-title: Second Workshop on Verification of Quantum Computing
+hero-tagline: Bringing formal methods and quantum computing together to make quantum software and hardware trustworthy.
+hero-month: Monday, July
+hero-days: "19"
+hero-year: "2027"
+hero-date-link: "#important-dates"
+hero-city: Amsterdam
+hero-detail: The Netherlands · KIT
+hero-place-link: https://conferences.i-cav.org/2027/venue/
+hero-img: /assets/img/amsterdam-night.svg
 ---
 
-<div class="workshop-details">
-    <span class="workshop-detail">
-        <i class="fas fa-calendar-alt"></i> July 21, 2025
+<section class="vqc-cta" aria-label="Priority actions">
+  <a class="vqc-cta__item vqc-cta__item--accent" href="{{ '/cfp' | relative_url }}">
+    <span class="vqc-cta__icon" aria-hidden="true"><i class="fa-solid fa-file-lines"></i></span>
+    <span class="vqc-cta__content">
+      <span class="vqc-cta__title">Call for Presentations</span>
+      <span class="vqc-cta__note">Submission deadline <strong>May 1, 2027</strong></span>
     </span>
-    <span class="workshop-detail">
-        <i class="fas fa-location-dot"></i> <p><a href="https://www.google.com/maps/place/Faculty+of+Electrical+Engineering+and+Computing/@45.8003692,15.968797,17z/data=!3m1!4b1!4m6!3m5!1s0x4765d6f150cf2ccd:0x739e5c279fd98531!8m2!3d45.8003692!4d15.9713773!16zL20vMGd3dDd3?entry=ttu&g_ep=EgoyMDI1MDMxNy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D">Building D of the Faculty of Electrical Engineering and Computing, </a>  <br/> University of Zagreb, Zagreb, Croatia or join us remotely via Google Meet </p>
-</span>
+  </a>
+  <a class="vqc-cta__item" href="https://easychair.org/conferences/?conf=vqc2027">
+    <span class="vqc-cta__icon" aria-hidden="true"><i class="fa-solid fa-paper-plane"></i></span>
+    <span class="vqc-cta__content">
+      <span class="vqc-cta__title">Submit a Talk Proposal</span>
+      <span class="vqc-cta__note">Two-page summary via <strong>EasyChair</strong></span>
+    </span>
+  </a>
+  <a class="vqc-cta__item" href="https://conferences.i-cav.org/2027/registration/">
+    <span class="vqc-cta__icon" aria-hidden="true"><i class="fa-solid fa-ticket"></i></span>
+    <span class="vqc-cta__content">
+      <span class="vqc-cta__title">Attend</span>
+      <span class="vqc-cta__note">Register through <strong>CAV 2027</strong></span>
+    </span>
+  </a>
+</section>
+
+<div class="lead-copy" markdown="1">
+VQC 2027 is the second edition of the Workshop on Verification of Quantum Computing, held on **Monday, July 19, 2027** as part of the [CAV 2027](https://conferences.i-cav.org/2027/) workshop program in Amsterdam.
+
+The workshop brings together researchers from formal methods and quantum information to address the unique challenges of verifying quantum software and hardware: from quantum programs, compilers, and simulators to error-correction protocols, fault-tolerant architectures, and resource estimates for cryptographically relevant algorithms.
+
+The first edition, [VQC 2025](https://verifiedqc.github.io/2025/) at CAV 2025 in Zagreb, featured keynotes by Ross Duncan, Mingsheng Ying, and Aws Albarghouthi, eight contributed talks, and a poster session. VQC 2027 continues the format: a one-day, presentation-based workshop without formal proceedings, open to published, in-progress, and tool-oriented work.
 </div>
 
-<!-- [Presentation Submission](https://easychair.org/conferences/?conf=vqc2025) -->
+## Important Dates {#important-dates}
 
-<!-- <span style="color:red">Due to several requests, we have extended the submission deadline to May 15.</span> -->
+<p class="vqc-note">All deadlines are AoE (Anywhere on Earth).</p>
+<div class="vqc-dates">
+  <a class="vqc-dates__item" href="{{ '/cfp' | relative_url }}">
+    <span class="vqc-dates__label">Submission deadline</span>
+    <span class="vqc-dates__value">Saturday, May 1, 2027</span>
+  </a>
+  <a class="vqc-dates__item" href="{{ '/cfp' | relative_url }}">
+    <span class="vqc-dates__label">Notification</span>
+    <span class="vqc-dates__value">Tuesday, June 1, 2027</span>
+  </a>
+  <a class="vqc-dates__item vqc-dates__item--brand" href="https://conferences.i-cav.org/2027/">
+    <span class="vqc-dates__label">Workshop</span>
+    <span class="vqc-dates__value">Monday, July 19, 2027</span>
+  </a>
+</div>
 
-<!-- <span style="color:red">The notification deadline is extended to June 15. If you need to receive the result earlier for travel arrangements, please feel free to contact the co-chairs.</span> -->
+## Invited Speakers
 
-#### Invited Speakers
-- Ross Duncan (Quantinuum)
-- Aws Albarghouthi (University of Wisconsin-Madison)
-- Mingsheng Ying (University of Technology Sydney)
+<ul class="vqc-people">
+  <li><a href="https://www.uva.nl/en/profile/b/u/h.m.buhrman/h.m.buhrman.html">Harry Buhrman</a> <span class="affil">Quantinuum and University of Amsterdam</span> — Confirmed</li>
+  <li><a href="https://www.cwi.nl/en/people/ronald-de-wolf/">Ronald de Wolf</a> <span class="affil">CWI and University of Amsterdam</span> — Tentative</li>
+</ul>
 
-#### Program
-<table>
-  <thead>
-    <tr>
-      <th style="width: 120px;">Time (UTC+2)</th>
-      <th>Event</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>8:30–9:00</td><td><strong>Breakfast</strong></td></tr>
-    <tr><td>9:00–9:05</td><td><strong>Opening</strong></td></tr>
-    <tr><td colspan="2"><em>Session 1</em></td></tr>
-    <tr><td>9:05–9:50</td><td><details>
-    <summary><strong>Keynote: What Should We Verify?</strong> (show abstract)<br>Ross Duncan</summary>
-    <br>Verification usually means to guarantee that a computational system is correct with respect to some specification. Can this definition survive in the context of quantum computing? What parts of the system can be verified? What notions of correctness are helpful? What properties of realistic systems can be verified? What* should *we verify? I will survey the field and give some perspective on the challenges and opportunities for automated verification of quantum software. Spoiler: it's the compiler.
-    </details><br><a href="/2025/assets/slides/talk-duncan.pdf" target="_blank">Slides</a> </td></tr>
-    <tr><td>9:50–10:10</td><td><strong>Interval-based Analysis of Quantum Variational Computing</strong><br>Nicola Assolini, Luca Marzari, Isabella Mastroeni and Alessandra Di Pierro</td></tr>
-    <tr><td>10:10–10:30</td><td><strong>Finding Photonics Circuits with SMT Solvers</strong><br>Marco Lewis and Benoît Valiron<br><a href="/2025/assets/slides/talk-lewis.pdf" target="_blank">Slides</a></td></tr>
-    <tr><td>10:30–11:00</td><td><strong>Coffee break</strong></td></tr>
-    <tr><td colspan="2"><em>Session 2</em></td></tr>
-    <tr><td>11:00–11:45</td><td><details>
-    <summary><strong>Keynote: A Practical Quantum Hoare Logic with Classical Variables</strong> (show abstract)<br>Mingsheng Ying</summary>
-<br>We present a Hoare-style logic for reasoning about quantum programs with classical variables. Our approach offers several improvements over previous work:<br>
-(1) Enhanced expressivity of the programming language: Our logic applies to quantum programs with classical variables that incorporate quantum arrays and parameterized quantum gates, which have not been addressed in previous research on quantum Hoare logic, either with or without classical variables.<br>
-(2) Intuitive correctness specifications: In our logic, preconditions and postconditions for quantum programs with classical variables are specified as a pair consisting of a classical first-order logical formula and a quantum predicate formula (possibly parameterized by classical variables). These specifications offer greater clarity and align more closely with the programmer's intuitive understanding of quantum and classical interactions.<br>
-(3) Simplified proof system: By introducing a novel idea in formulating a proof rule for reasoning about quantum measurements, along with (2), we develop a proof system for quantum programs that requires only minimal modifications to classical Hoare logic. Furthermore, this proof system can be effectively and conveniently combined with classical first-order logic to verify quantum programs with classical variables.<br>
-As a result, the learning curve for quantum program verification techniques is significantly reduced for those already familiar with classical program verification techniques, and existing tools for verifying classical programs can be more easily adapted for quantum program verification.
-</details><br><a href="/2025/assets/slides/talk-ying.pdf" target="_blank">Slides</a></td></tr>
-    <tr><td>11:45–12:05</td><td><strong>Hardware-Optimal Quantum Algorithms</strong><br>Stefanie Muroya, Krishnendu Chatterjee and Thomas Henzinger<br><a href="/2025/assets/slides/talk-muroya.pdf" target="_blank">Slides</a></td></tr>
-    <tr><td>12:05–14:00</td><td><strong>Lunch</strong></td></tr>
-    <tr><td colspan="2"><em>Session 3</em></td></tr>
-    <tr><td>14:00–14:45</td><td><details>
-    <summary><strong>Keynote: Synthesizing Quantum Compilers</strong> (show abstract)<br>Aws Albarghouthi</summary>
-<br>The promise of quantum computing has tantalized researchers for decades, and recent breakthroughs in physical implementations have brought this technology closer to reality. However, the quantum computing landscape remains highly dynamic: competing physical substrates, fault tolerance schemes, and architectures continue to emerge with no clear frontrunner. This diversity creates a significant bottleneck in the compilation pipeline – developing and maintaining separate compilers for each new device or experimental setup is both time-consuming and error-prone.<br>
+## Program
 
-In this talk, I will present an alternative approach: automatically synthesizing device-specific quantum circuit compilers. This synthesis-based methodology enables rapid iteration while maintaining correctness guarantees. I will focus on the optimizer component, which reduces circuit size to minimize quantum computation errors. I will demonstrate how automatically synthesized optimizers can achieve superior performance compared to sophisticated hand-crafted alternatives. I will also discuss recent results on synthesizing device-specific mapping and routing algorithms.
-</details><br><a href="/2025/assets/slides/talk-albarghouthi.pdf" target="_blank">Slides</a></td></tr>
-    <tr><td>14:45–15:05</td><td><strong>Certified Randomness from Quantum Supremacy</strong><br>Scott Aaronson and Shih-Han Hung</td></tr>
-    <tr><td>15:05–15:30</td><td><strong>Poster Session</strong></td></tr>
-    <tr><td>15:30–16:00</td><td><strong>Coffee break</strong></td></tr>
-    <tr><td colspan="2"><em>Session 4</em></td></tr>
-    <tr><td>16:00–16:20</td><td><strong>Analysing Quantum Programs using Automata</strong><br>Parosh Aziz Abdulla, Yo-Ga Chen, Yu-Fang Chen, Kai-Min Chung, Lukáš Holík, Ondrej Lengal, Jyun-Ao Lin, Fang-Yi Lo, Wei-Lun Tsai and Di-De Yen<br><a href="/2025/assets/slides/talk-lengal.pdf" target="_blank">Slides</a></td></tr>
-    <tr><td>16:20–16:40</td><td><strong>On-Chip Verified Quantum Computation with an Ion-Trap Quantum Processing Unit</strong><br>Cica Gustiani, Dominik Leichte and Daniel Mills</td></tr>
-    <tr><td>16:40–17:00</td><td><strong>Certifying Adversarial Robustness in Quantum Machine Learning: From Theory to Physical Validation</strong><br>Ji Guan<br><a href="/2025/assets/slides/talk-guan.pdf" target="_blank">Slides</a></td></tr>
-    <tr><td>17:00–17:30</td><td><strong>Panel & Planning Session</strong></td></tr>
-  </tbody>
-</table>
+<p class="vqc-tbd">The program will be published after notifications are sent. See the <a href="https://verifiedqc.github.io/2025/">VQC 2025 program</a> for the format of the first edition.</p>
 
-#### Posters
-- **AutoQ: Automata-based Quantum Program Analyzer.** <br> Jyun-Ao Lin et. al.
-- **Barrier Certificates for Quantum Computing.** <br> Marco Lewis, Sadegh Soudjani and Paolo Zuliani
-- **Compact and Efficient Formalism for Resource and Termination Estimation in Quantum Programs.** <br>	Jad Issa, Christophe Chareton and Romain Péchoux
-- **DisQ: A Model of Distributed Quantum Processors.** <br> Le Chang, Saitej Yavvari, Rance Cleaveland, Samik Basu and Liyi Li<br><a href="/2025/assets/slides/poster-liyi-li.pdf" target="_blank">Poster</a>
-- **Hybrid Programming Language for Cryptography in Rocq.** <br> Zhenhao Li and Li Zhou<br><a href="/2025/assets/slides/poster-zhenhao-li.pdf" target="_blank">Poster</a>
+## Organizers
 
-#### Organizers
-- Runzhou Tao (University of Maryland)
-- Yu-Fang Chen (Academia Sinica)
+<ul class="vqc-people">
+  <li>Alfons Laarman <span class="affil">Leiden University</span></li>
+  <li>Yu-Fang Chen <span class="affil">Academia Sinica</span></li>
+  <li>Runzhou Tao <span class="affil">University of Maryland</span></li>
+</ul>
 
-#### Program Committee
-- Runzhou Tao (University of Maryland)
-- Yu-Fang Chen (Academia Sinica)
-- Alfons Laarman (Leiden University)
-- Christophe Chareton (LORIA-CELLO)
-- Ondrej Lengal (Brno University of Technology)
-- Max Tschaikowski (Aalborg University)
-- Nengkun Yu (Stony Brook University)
-- Ji Liu (Argonne National Laboratory)
-- Zichang He (JPMorgan Chase)
-- Li Zhou (Max Planck Institute for Security and Privacy)
-- Ferhat Erata (Yale University)
+## Program Committee
+
+<p class="vqc-tbd">To be announced.</p>
+
+## Venue
+
+The workshop takes place at [KIT (the former Royal Tropical Institute)](https://conferences.i-cav.org/2027/venue/) in Amsterdam, the CAV 2027 venue, on the first of the two CAV workshop days (July 19–20). Registration, travel, and accommodation information are provided by [CAV 2027](https://conferences.i-cav.org/2027/).

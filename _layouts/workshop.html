@@ -1,0 +1,47 @@
+---
+layout: base
+---
+
+<header class="vqc-hero {% if page.hero-compact %}vqc-hero--compact{% endif %}">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-10 offset-xl-1 col-lg-12">
+        <div class="vqc-hero__card">
+          <div class="vqc-hero__text">
+            {% if page.hero-kicker %}<p class="vqc-hero__kicker">{{ page.hero-kicker }}</p>{% endif %}
+            <h1>{{ page.hero-title | default: page.title }}</h1>
+            {% if page.hero-tagline %}<p class="vqc-hero__tagline">{{ page.hero-tagline }}</p>{% endif %}
+            {% if page.hero-month %}
+            <div class="vqc-hero__dateline" aria-label="Workshop date and location">
+              <a class="vqc-hero__date" href="{{ page.hero-date-link | default: '#important-dates' }}">
+                <span class="vqc-hero__date-month">{{ page.hero-month }}</span>
+                <span class="vqc-hero__date-days">{{ page.hero-days }}</span>
+                <span class="vqc-hero__date-year">{{ page.hero-year }}</span>
+              </a>
+              <a class="vqc-hero__place" href="{{ page.hero-place-link | default: '#' }}">
+                <span class="vqc-hero__place-city">{{ page.hero-city }}</span>
+                <span class="vqc-hero__place-detail">{{ page.hero-detail }}</span>
+              </a>
+            </div>
+            {% endif %}
+          </div>
+          {% if page.hero-img %}
+          <div class="vqc-hero__media" aria-hidden="true">
+            <img class="vqc-hero__photo" src="{{ page.hero-img | relative_url }}" alt="" decoding="async" fetchpriority="high">
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container-md vqc-main">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <div class="page-content-card">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</main>
