@@ -66,7 +66,10 @@ The first edition, [VQC 2025](https://verifiedqc.github.io/2025/) at CAV 2025 in
 
 ## Invited Speakers
 
-<p class="vqc-tbd">To be announced.</p>
+<ul class="vqc-people">
+  <li><a href="https://www.uva.nl/en/profile/b/u/h.m.buhrman/h.m.buhrman.html">Harry Buhrman</a> <span class="affil">Quantinuum and University of Amsterdam</span> — Confirmed</li>
+  <li><a href="https://www.cwi.nl/en/people/ronald-de-wolf/">Ronald de Wolf</a> <span class="affil">CWI and University of Amsterdam</span> — Tentative</li>
+</ul>
 
 ## Program
 
