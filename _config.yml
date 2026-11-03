@@ -253,6 +253,9 @@ footer-hover-col: "#E8752A"
 # --- Misc --- #
 ################
 
+# Hide the "Powered by Beautiful Jekyll" footer line
+remove-ads: true
+
 # Ruby Date Format to show dates of posts
 date_format: "%B %-d, %Y"
 
