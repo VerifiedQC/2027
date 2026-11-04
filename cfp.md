@@ -1,9 +1,8 @@
 ---
 layout: workshop
 title: Call for Presentations
-hero-date: Monday, July 19, 2027
-hero-date-link: "#important-dates"
-hero-place: KIT, Amsterdam
+hero-kicker: VQC 2027 · A CAV 2027 Workshop
+hero-title: Call for Presentations
 hero-compact: true
 ---
 
@@ -44,27 +43,27 @@ We invite prospective speakers to submit talk proposals. A proposal consists of 
 
 All submissions are handled via [EasyChair](https://easychair.org/conferences/?conf=vqc2027). Proposals are reviewed by the program committee for relevance and quality, and selected for either a talk or a poster. At least one author of each accepted proposal is expected to attend the workshop in person and register through CAV 2027.
 
-## Important Dates {#important-dates}
+## Important Dates
 
 <div class="vqc-dates">
   <div class="vqc-dates__item">
-    <span>Submission deadline</span>
-    <span>Saturday, May 1, 2027, AoE</span>
+    <span class="vqc-dates__label">Submission deadline</span>
+    <span class="vqc-dates__value">Saturday, May 1, 2027 (AoE)</span>
   </div>
   <div class="vqc-dates__item">
-    <span>Notification</span>
-    <span>Tuesday, June 1, 2027</span>
+    <span class="vqc-dates__label">Notification</span>
+    <span class="vqc-dates__value">Tuesday, June 1, 2027</span>
   </div>
   <div class="vqc-dates__item vqc-dates__item--brand">
-    <span>Workshop</span>
-    <span>Monday, July 19, 2027</span>
+    <span class="vqc-dates__label">Workshop</span>
+    <span class="vqc-dates__value">Monday, July 19, 2027</span>
   </div>
 </div>
 
 ## Organizers
 
 <ul class="vqc-people">
-  <li>Alfons Laarman, Leiden University</li>
-  <li>Yu-Fang Chen, Academia Sinica</li>
-  <li>Runzhou Tao, University of Maryland</li>
+  <li>Alfons Laarman <span class="affil">Leiden University</span></li>
+  <li>Yu-Fang Chen <span class="affil">Academia Sinica</span></li>
+  <li>Runzhou Tao <span class="affil">University of Maryland</span></li>
 </ul>

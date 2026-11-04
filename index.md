@@ -1,56 +1,77 @@
 ---
 layout: workshop
 title: Second Workshop on Verification of Quantum Computing (VQC 2027)
+hero-kicker: A CAV 2027 Workshop
 hero-title: Second Workshop on Verification of Quantum Computing
-hero-date: Monday, July 19, 2027
+hero-month: Monday, July
+hero-days: "19"
+hero-year: "2027"
 hero-date-link: "#important-dates"
-hero-place: KIT, Amsterdam
+hero-city: Amsterdam
+hero-detail: The Netherlands · KIT
 hero-place-link: https://conferences.i-cav.org/2027/venue/
 hero-img: /assets/img/amsterdam-night.svg
 ---
 
-<nav class="vqc-cta" aria-label="Actions">
-  <a class="vqc-cta__item vqc-cta__item--primary" href="{{ '/cfp' | relative_url }}">Call for Presentations</a>
-  <a class="vqc-cta__item" href="https://easychair.org/conferences/?conf=vqc2027">Submit on EasyChair</a>
-  <a class="vqc-cta__item" href="https://conferences.i-cav.org/2027/registration/">Register via CAV 2027</a>
-</nav>
+<section class="vqc-cta" aria-label="Priority actions">
+  <a class="vqc-cta__item vqc-cta__item--accent" href="{{ '/cfp' | relative_url }}">
+    <span class="vqc-cta__icon" aria-hidden="true"><i class="fa-solid fa-file-lines"></i></span>
+    <span class="vqc-cta__content">
+      <span class="vqc-cta__title">Call for Presentations</span>
+    </span>
+  </a>
+  <a class="vqc-cta__item" href="https://easychair.org/conferences/?conf=vqc2027">
+    <span class="vqc-cta__icon" aria-hidden="true"><i class="fa-solid fa-paper-plane"></i></span>
+    <span class="vqc-cta__content">
+      <span class="vqc-cta__title">Submit a Talk Proposal</span>
+    </span>
+  </a>
+  <a class="vqc-cta__item" href="https://conferences.i-cav.org/2027/registration/">
+    <span class="vqc-cta__icon" aria-hidden="true"><i class="fa-solid fa-ticket"></i></span>
+    <span class="vqc-cta__content">
+      <span class="vqc-cta__title">Register via CAV 2027</span>
+    </span>
+  </a>
+</section>
 
+<div class="lead-copy" markdown="1">
 VQC 2027 is the second edition of the Workshop on Verification of Quantum Computing, held on **Monday, July 19, 2027** as part of the [CAV 2027](https://conferences.i-cav.org/2027/) workshop program in Amsterdam.
 
 The workshop brings together researchers from formal methods and quantum information to address the unique challenges of verifying quantum software and hardware: from quantum programs, compilers, and simulators to error-correction protocols, fault-tolerant architectures, and resource estimates for cryptographically relevant algorithms.
 
 The first edition, [VQC 2025](https://verifiedqc.github.io/2025/) at CAV 2025 in Zagreb, featured keynotes by Ross Duncan, Mingsheng Ying, and Aws Albarghouthi, eight contributed talks, and a poster session. VQC 2027 continues the format: a one-day, presentation-based workshop without formal proceedings, open to published, in-progress, and tool-oriented work.
+</div>
 
 ## Important Dates {#important-dates}
 
 <div class="vqc-dates">
   <a class="vqc-dates__item" href="{{ '/cfp' | relative_url }}">
-    <span>Submission deadline</span>
-    <span>Saturday, May 1, 2027, AoE</span>
+    <span class="vqc-dates__label">Submission deadline</span>
+    <span class="vqc-dates__value">Saturday, May 1, 2027 (AoE)</span>
   </a>
   <a class="vqc-dates__item" href="{{ '/cfp' | relative_url }}">
-    <span>Notification</span>
-    <span>Tuesday, June 1, 2027</span>
+    <span class="vqc-dates__label">Notification</span>
+    <span class="vqc-dates__value">Tuesday, June 1, 2027</span>
   </a>
   <a class="vqc-dates__item vqc-dates__item--brand" href="https://conferences.i-cav.org/2027/">
-    <span>Workshop</span>
-    <span>Monday, July 19, 2027</span>
+    <span class="vqc-dates__label">Workshop</span>
+    <span class="vqc-dates__value">Monday, July 19, 2027</span>
   </a>
 </div>
 
 ## Invited Speakers
 
 <ul class="vqc-people">
-  <li><a href="https://www.uva.nl/en/profile/b/u/h.m.buhrman/h.m.buhrman.html">Harry Buhrman</a>, Quantinuum and University of Amsterdam</li>
-  <li><a href="https://www.cwi.nl/en/people/ronald-de-wolf/">Ronald de Wolf</a>, CWI and University of Amsterdam (tentative)</li>
+  <li><a href="https://www.uva.nl/en/profile/b/u/h.m.buhrman/h.m.buhrman.html">Harry Buhrman</a> <span class="affil">Quantinuum and University of Amsterdam</span> — Confirmed</li>
+  <li><a href="https://www.cwi.nl/en/people/ronald-de-wolf/">Ronald de Wolf</a> <span class="affil">CWI and University of Amsterdam</span> — Tentative</li>
 </ul>
 
 ## Organizers
 
 <ul class="vqc-people">
-  <li>Alfons Laarman, Leiden University</li>
-  <li>Yu-Fang Chen, Academia Sinica</li>
-  <li>Runzhou Tao, University of Maryland</li>
+  <li>Alfons Laarman <span class="affil">Leiden University</span></li>
+  <li>Yu-Fang Chen <span class="affil">Academia Sinica</span></li>
+  <li>Runzhou Tao <span class="affil">University of Maryland</span></li>
 </ul>
 
 ## Venue
