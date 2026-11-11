@@ -1,0 +1,1 @@
+- `amsterdam-night.svg` / `amsterdam-night.png`: original illustration for VQC 2027 (Amsterdam canal houses with quantum motifs: Bloch sphere, entanglement arcs, a quantum circuit reflected in the canal). Generated from `art/gen.py` in the paper-editor workspace; CC BY 4.0, VQC 2027 organizers.
